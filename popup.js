@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('lastName').value = result.userData.lastName || '';
         document.getElementById('firstName').value = result.userData.firstName || '';
         document.getElementById('email').value = result.userData.email || '';
+        document.getElementById('phone').value = result.userData.phone || '';
         document.getElementById('linkedin').value = result.userData.linkedin || '';
         document.getElementById('xing').value = result.userData.xing || '';
         document.getElementById('github').value = result.userData.github || '';
@@ -55,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
       lastName: document.getElementById('lastName').value,
       firstName: document.getElementById('firstName').value,
       email: document.getElementById('email').value,
+      phone: document.getElementById('phone').value,
       linkedin: document.getElementById('linkedin').value,
       xing: document.getElementById('xing').value,
       github: document.getElementById('github').value,
@@ -76,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('lastName').value = '';
     document.getElementById('firstName').value = '';
     document.getElementById('email').value = '';
+    document.getElementById('phone').value = '';
     document.getElementById('linkedin').value = '';
     document.getElementById('xing').value = '';
     document.getElementById('github').value = '';

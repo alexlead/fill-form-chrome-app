@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>User form</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Personal data</h1>
+    <form id="userForm">
+      <div class="form-group">
+        <div class="input-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName">
+          <button type="button" class="copy-btn" data-field="lastName"><img src="/icons/bootstrap/copy.svg" /></button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-group">
+          <label for="firstName">First name:</label>
+          <input type="text" id="firstName" name="firstName">
+          <button type="button" class="copy-btn" data-field="firstName"><img src="/icons/bootstrap/copy.svg" /></button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email">
+          <button type="button" class="copy-btn" data-field="email"><img src="/icons/bootstrap/copy.svg" /></button>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <label for="linkedin">Linkedin:</label>
+          <input type="text" id="linkedin" name="linkedin">
+          <button type="button" class="copy-btn" data-field="linkedin"><img src="/icons/bootstrap/copy.svg" /></button>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <label for="xing">Xing:</label>
+          <input type="text" id="xing" name="xing">
+          <button type="button" class="copy-btn" data-field="xing"><img src="/icons/bootstrap/copy.svg" /></button>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <label for="github">Github:</label>
+          <input type="text" id="github" name="github">
+          <button type="button" class="copy-btn" data-field="github"><img src="/icons/bootstrap/copy.svg" /></button>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <label for="other">Other:</label>
+          <input type="text" id="other" name="other">
+          <button type="button" class="copy-btn" data-field="other"><img src="/icons/bootstrap/copy.svg" /></button>
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button type="submit" id="saveBtn"><img src="/icons/bootstrap/floppy.svg" /></button>
+        <button type="button" id="clearBtn"><img src="/icons/bootstrap/trash-fill.svg" /></button>
+      </div>
+    </form>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
